@@ -1,0 +1,7 @@
+/.env
+/node_modules/
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/QOTDbot.iml
+/.idea/vcs.xml
+/.idea/encodings.xml
