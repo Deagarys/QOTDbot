@@ -1,1 +1,3 @@
 # QOTDbot
+
+README coming soon
