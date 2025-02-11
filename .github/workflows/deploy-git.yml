@@ -32,4 +32,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/deagarys/qotd-bot:latest
+          tags: ghcr.io/deagarys/qotdbot:latest
