@@ -20,7 +20,7 @@ const client = new Client({
     ]
 });
 // const rest = new REST().setToken(process.env.TOKEN);
-// rest.put(Routes.applicationCommands("1274828671617859584"), { body: [] })
+// rest.put(Routes.applicationCommands("process.env.BOT_ID"), { body: [] })
 //     .then(() => console.log('Successfully deleted all application commands.'))
 //     .catch(console.error);
 
