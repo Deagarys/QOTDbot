@@ -46,7 +46,7 @@ client.on("ready", async (c) => {
     }
 })();
 
-let qotdJob = new cron.CronJob('0 12 * * *', job);
+let qotdJob = new cron.CronJob(process.env.CRON, job);
 async function job() {
     await qotd(client);
 }
