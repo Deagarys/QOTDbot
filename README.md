@@ -1,3 +1,51 @@
 # QOTDbot
 
-README coming soon
+## Overview
+QOTDbot is a Discord bot designed to ask a "Question of the Day" (QOTD) in a specified channel. It is built using JavaScript and the `discord.js` library.
+
+## Features
+- Ask a daily question in a designated channel.
+- Permission checks to ensure only authorized users can trigger the QOTD command.
+- Configurable via environment variables.
+
+## Installation
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Deagarys/QOTDbot.git
+    cd QOTDbot
+    ```
+
+2. Install dependencies:
+    ```sh
+    npm install
+    ```
+
+3. Create a `.env` file based on the `.env.example` file and fill in the required values:
+    ```sh
+    cp .env.example .env
+    ```
+
+## Usage
+1. Start the bot:
+    ```sh
+    npm start
+    ```
+
+2. Use the `/qotd` command in your Discord server to ask the question of the day.
+
+## Environment Variables
+- `TOKEN`: Your Discord bot token.
+- `TEST_SERVER`: ID of the test server.
+- `SERVER_ID`: ID of the main server.
+- `MONGO_URI`: MongoDB connection string.
+- `LOG_CHANNEL_ID`: ID of the log channel.
+- `QOTD_CHANNEL_ID`: ID of the QOTD channel.
+- `QOTD_ROLE_ID`: ID of the QOTD role.
+- `BOT_ID`: ID of the bot.
+- `CRON`: Cron expression for scheduling the QOTD.
+
+## Contributing
+Feel free to submit issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License.
