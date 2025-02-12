@@ -1,4 +1,8 @@
 # QOTDbot
+[![Build and Test](https://github.com/Deagarys/QOTDbot/actions/workflows/pr-test.yml/badge.svg)](https://github.com/Deagarys/QOTDbot/actions/workflows/pr-test.yml)
+[![CodeQL](https://github.com/Deagarys/QOTDbot/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/Deagarys/QOTDbot/actions/workflows/github-code-scanning/codeql)
+[![Deploy to Docker](https://github.com/Deagarys/QOTDbot/actions/workflows/deploy-docker.yml/badge.svg)](https://github.com/Deagarys/QOTDbot/actions/workflows/deploy-docker.yml)
+[![Deploy to GitHub](https://github.com/Deagarys/QOTDbot/actions/workflows/deploy-git.yml/badge.svg)](https://github.com/Deagarys/QOTDbot/actions/workflows/deploy-git.yml)
 
 ## Overview
 QOTDbot is a Discord bot designed to ask a "Question of the Day" (QOTD) in a specified channel. It is built using JavaScript and the `discord.js` library.
